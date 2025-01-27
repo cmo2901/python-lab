@@ -22,4 +22,7 @@ Jupyter Notebooks</p>
 
 <img width="620" alt="Iterate through remove list" src="https://github.com/user-attachments/assets/1f85313b-5618-449a-9c20-3303c6573498" />
 
+### Updating the original file
+<p>With the unauthorized IP addresses removed from the file, I could now update it. First, I converted the file from a list back to a string with the .join() method, and utilized '\n' to give each element of the updated file its own line. By storing '.join(ip_addresses)' in the 'ip_addresses' variable, I could pass this variable as an argument when replacing the original file's contents. Using a print statement, I confirmed that the updated file excluded any elements from the remove list.</p>
 
+<img width="518" alt="Update the original file" src="https://github.com/user-attachments/assets/3456190d-c721-4275-b885-04e472192c35" />
